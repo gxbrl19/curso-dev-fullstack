@@ -1,0 +1,18 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat; /*não se repete*/
+    /*background-position: 100% 10%;*/
+    background-position: center center;
+    background-size: cover; /*cobre a tela*/
+    background-attachment: fixed; /*não se move*/
+}
+
+.fotoLogo {
+    width: 200px;
+}
+
+p {
+    color:rgb(58, 58, 58);
+}
+
+

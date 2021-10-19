@@ -1,0 +1,16 @@
+body {
+    background: rgb(20, 6, 43);
+}
+
+h3 {
+    color: white;
+}
+
+.fotoLogo {
+    width: 200px;
+}
+
+#tituloPrincipal {
+    color: red;
+}
+
