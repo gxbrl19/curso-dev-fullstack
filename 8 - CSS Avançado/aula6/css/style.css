@@ -1,0 +1,19 @@
+body {
+    margin: 100px;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: black;    
+    transition-duration: 500ms;
+}
+
+.box:hover {    
+    background-color: red;
+    transform: rotate(360deg) scaleX(1.5);
+    box-shadow: 0 0 20px black;
+}
+
+
+

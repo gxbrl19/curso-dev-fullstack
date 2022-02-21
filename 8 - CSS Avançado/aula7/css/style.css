@@ -1,0 +1,32 @@
+body {
+    margin: 100px;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+
+    animation-name: minhaAnimacao;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;      
+}
+
+@keyframes minhaAnimacao {
+    0% {
+        background-color: black;
+        box-shadow: 0 0 100px black;
+    }
+
+    50% {
+        background-color: red;
+        transform: rotate(360deg);
+        box-shadow: 0 0 100px black;
+    }
+
+    100% {
+        background-color: black; 
+        transform: rotate(920deg);
+        box-shadow: 0 0 100px black;
+    }
+}
